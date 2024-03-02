@@ -12,7 +12,7 @@
 ## Install
 
 ```bash
-go get github.com/juunini/palworld-settings-parser
+go get github.com/juunini/palworld-settings
 ```
 
 ## Usage
@@ -23,7 +23,7 @@ package main
 import (
 	"os"
 
-	palworld_settings "github.com/juunini/palworld-settings-parser"
+	palworld_settings "github.com/juunini/palworld-settings"
 )
 
 func main() {

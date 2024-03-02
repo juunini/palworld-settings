@@ -3,7 +3,7 @@ package palworld_settings_test
 import (
 	"testing"
 
-	palworld_settings "github.com/juunini/palworld-settings-parser"
+	palworld_settings "github.com/juunini/palworld-settings"
 )
 
 func TestSettingToString(t *testing.T) {
