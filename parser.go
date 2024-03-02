@@ -92,9 +92,9 @@ func getConfigValue(configString, configName string) string {
 
 	configLastIndex := strings.Index(valueStart, ",")
 	if configLastIndex == -1 {
-		return valueStart
+		return strings.Trim(valueStart, `"`)
 	}
-	return valueStart[:strings.Index(valueStart, ",")]
+	return strings.Trim(valueStart[:strings.Index(valueStart, ",")], `"`)
 }
 
 func getConfigValueFloat(configString, configName string) float64 {
